@@ -2,7 +2,7 @@
 
 This directory contains the test case architecture and repository structure used for manual UI execution in **TestRail**.
 
----
+--
 
 ## 🔗 Test Management & Suite Links
 
@@ -10,7 +10,7 @@ This directory contains the test case architecture and repository structure used
 - **Test Run:** `Sprint 1 - Manual UI Regression`
 - **Tool:** TestRail Enterprise
 
----
+--
 
 ## 📂 Test Suite Structure
 

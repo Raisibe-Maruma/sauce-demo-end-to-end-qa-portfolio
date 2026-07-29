@@ -23,7 +23,7 @@ The purpose of this testing project is to perform end-to-end functional manual t
 * **Functional Testing:** Ensuring features behave according to business logic.
 * **Equivalence Partitioning (EP):** Grouping inputs to test valid vs. invalid data ranges.
 * **Boundary Value Analysis (BVA):** Testing boundary limits on form fields (e.g., Zip Code length).
-* **Exploratory Testing:** Uncovering unexpected edge-case bugs using special user personas (e.g., `problem_user`, `glitch_user`).
+* **Exploratory Testing:** Uncovering unexpected edge-case bugs using special user personas (e.g., `problem_user`,`glitch_user`)
 
 ## 4. Environment & Tools
 * **Application Under Test (AUT):** https://www.saucedemo.com/

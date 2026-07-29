@@ -4,7 +4,7 @@ This folder contains all defect reports found during manual and API testing of t
 
 ## How to Read This
 
-Each bug is tracked with a unique ID: `BUG-001`, `BUG-002`, etc.
+Each bug is tracked with a unique ID: `BUG-001`, `BUG-002`, etc
 
 | Bug ID | Severity | Module | Status |
 | --- | --- | --- | --- |
