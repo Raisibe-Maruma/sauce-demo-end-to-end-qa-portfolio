@@ -5,14 +5,14 @@ The purpose of this testing project is to perform end-to-end functional manual t
 
 ## 2. Scope of Testing
 
-### In-Scope (What We ARE Testing)
+### In-Scope 
 * **User Authentication:** Valid login, invalid credentials, locked-out users, and session logout.
 * **Product Catalog:** Product listing display, sorting options (A-Z, Z-A, Low-High, High-Low), and individual product details.
 * **Shopping Cart:** Adding items, removing items, cart count badge updates, and cart persistence across pages.
 * **Checkout Workflow:** Form input validation (First Name, Last Name, Zip Code), item total calculations, and order completion.
 * **REST API:** Basic HTTP responses, endpoint availability, and status code verification.
 
-### Out-of-Scope (What We Are NOT Testing)
+### Out-of-Scope 
 * Payment gateway processing (mocked in AUT).
 * Social media footer links (external third-party links).
 * Performance/Load testing under high traffic.
