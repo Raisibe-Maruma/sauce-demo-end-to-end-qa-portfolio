@@ -21,8 +21,8 @@ The test cases are organized into **3 core functional sections** covering 21 ind
 
 ### 2. Catalog & Shopping Cart (`02-Catalog & Cart`)
 -Product listing display, sorting variations (A-Z, Z-A, Price Low-High, Price High-Low), individual item detail view navigation, cart badge increment/decrement, and item removal.
-* **TC124  (Defects Identified):** Image asset rendering and product title redirection under `problem_user`.
+* **TC65  (Defects Identified):** Image asset rendering and product title redirection under `problem_user`.
 
 ### 3. Checkout Workflow (`03-Checkout Flow`)
 -Information input form validation (First Name, Last Name, Zip Code), item subtotal & tax calculation verification, order completion, and cart reset post-purchase.
-* **TC124 & TC124 (Defects Identified):** Last Name field input mirroring (`problem_user`) and empty cart checkout boundary validation.
+* **TC64 & TC66 (Defects Identified):** Last Name field input mirroring (`problem_user`) and empty cart checkout boundary validation.
