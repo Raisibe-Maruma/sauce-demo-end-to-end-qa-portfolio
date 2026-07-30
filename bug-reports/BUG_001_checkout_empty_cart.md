@@ -1,0 +1,60 @@
+# [BUG-001] System permits checkout initiation with an empty shopping cart
+
+* **Bug ID:** `BUG-001`
+* **Title:** Checkout workflow initiates successfully when Shopping Cart is empty
+* **Severity:** High
+* **Priority:** High
+* **Module:** Checkout
+* **Status:** Open
+* **Reporter:** Raisibe Maruma
+* **Related Test Case ID:** `C64` (Verify system prevents checkout initiation with an empty cart)
+
+---
+
+## 💻 Environment
+
+* **Application URL:** `https://www.saucedemo.com/`
+* **Browser:** Google Chrome (Latest Version)
+* **Operating System:** macOS / Windows
+* **User Persona:** `standard_user`
+
+
+## 📋 Preconditions
+
+1. User is successfully logged in as `standard_user`.
+2. The user has zero (`0`) items added to their Shopping Cart.
+
+---
+
+## 🛠️ Steps to Reproduce
+
+1. Click on the **Shopping Cart** icon in the top-right header to navigate to `https://www.saucedemo.com/cart.html`.
+2. Verify that the cart container contains no item rows (Cart is completely empty).
+3. Click the **Checkout** button.
+
+---
+
+## 🎯 Expected Result
+
+* The **Checkout** button should be disabled, OR
+* Clicking **Checkout** should display a clear UI validation message (e.g., *"Your cart is empty. Please add items before checking out."*), preventing navigation to the checkout form.
+
+---
+
+## ❌ Actual Result
+
+* The system navigates the user directly to `https://www.saucedemo.com/checkout-step-one.html`.
+* The user is allowed to enter shipping details (First Name, Last Name, Zip Code) and proceed through the entire checkout flow for an empty order ($0.00 total).
+
+---
+
+## 🖼️ Visual Evidence
+
+![Empty Cart Checkout Bug](../screenshots/bug_001_empty_cart_checkout.png)
+
+---
+
+## 🧰 Tools Used
+
+* **Chrome DevTools:** DOM Inspection & Network Monitoring
+* **TestRail / CSV:** Test Case Execution Alignment (`C64`)
