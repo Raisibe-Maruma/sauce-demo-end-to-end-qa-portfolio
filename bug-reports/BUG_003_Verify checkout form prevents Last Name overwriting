@@ -1,1 +1,29 @@
+# [BUG-003] Verify checkout form prevents Last Name overwriting
 
+* **Bug ID:** `BUG-003`
+* **Title:** Verify checkout form prevents Last Name overwriting
+* **Severity:** High
+* **Priority:** High
+* **Module:** Checkout
+* **Status:** Open
+* **Reporter:** Raisibe Maruma
+* **Related Test Case ID:** `C66` (Verify checkout form prevents Last Name overwriting)
+
+---
+
+## 💻 Environment
+
+* **Application URL:** `https://www.saucedemo.com/`
+* **Browser:** Google Chrome (Latest Version)
+* **Operating System:** macOS / Windows
+* **User Persona:** `standard_user`
+
+
+## 📋 Preconditions
+
+1. User is successfully logged in as `standard_user`.
+2. The user has zero (`0`) items added to their Shopping Cart.
+
+---
+
+## 🛠️ Steps to Reproduce
