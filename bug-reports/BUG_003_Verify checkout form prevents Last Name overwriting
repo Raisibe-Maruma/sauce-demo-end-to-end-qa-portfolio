@@ -21,9 +21,34 @@
 
 ## 📋 Preconditions
 
-1. User is successfully logged in as `standard_user`.
-2. The user has zero (`0`) items added to their Shopping Cart.
+1. User is successfully logged in as `standard_user`and password 'saucesceret'.
+2. The user has items added to their Shopping Cart.
 
 ---
 
-## 🛠️ Steps to Reproduce
+### 🐾 Steps to Reproduce
+1. Log in to [Sauce Demo](https://www.saucedemo.com/) as `standard_user`.
+2. Add any item to the cart and navigate to cart.
+3. Click **"Checkout".
+4. Focus on the **First Name** field and type `Raisibe`.
+5. Focus on the **Last Name** field and type `Maruma`.
+6. Inspect the value in the **First Name** input field.
+
+---
+
+### 🎯 Expected Result
+- **First Name** retains the value `Raisibe`.
+- **Last Name** retains the value `Maruma`.
+- Clicking **"Continue"** successfully navigates the user to `checkout-step`.
+
+---
+
+### ❌ Actual Result
+- Typing in the **Last Name** field triggers a state bug that overwrites the **First Name** field with `Maruma` (or clears it entirely).
+- Submitting the form fails with the error: `Error: First Name is required` (or submits corrupted customer data).
+
+---
+
+### ⚠️ Severity & Priority
+* **Severity:** Critical (Blocks the primary checkout funnel and prevents transaction completion)
+* **Priority:** High
