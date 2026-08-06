@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 * **Target API:** Simple Grocery Store API
-* **Base URL:** `https://simple-grocery-store-api.online`
+* **Base URL:** `https://simple-grocery-store-api.click`
 * **Authentication:** Bearer Token via `POST /api-clients`
 * **Author:** QA Portfolio Project
 
