@@ -33,7 +33,7 @@ The testing suite covers the core end-to-end e-commerce user flow across public 
 ---
 
 ## 🚀 How to Review This Suite
-1. Download `Simple_Grocery_Store_Collection.json` and `Grocery_Store_Environment.json` from this folder.
+1. Navigate to the api tests folder and download Simple_Grocery_Store_Collection.json and Grocery_Store_Environment.json
 2. Open **Postman** and click **Import** in the top left corner.
 3. Drag and drop both JSON files to load the collection and environment settings.
 4. Select the **Simple Grocery Store Environment** from the top-right environment dropdown.
